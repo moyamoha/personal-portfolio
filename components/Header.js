@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Header() {
 	return (
-		<nav className="navbar container navbar-expand-lg navbar-light header">
+		<nav className="navbar container navbar-expand-md px-2 px-md-0 navbar-light header">
 			<a className="navbar-brand" href="/">
 				<span className="nice">Yahya Salimi</span>
 			</a>

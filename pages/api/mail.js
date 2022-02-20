@@ -12,7 +12,7 @@ export default function handler(req, res) {
 
 	try {
 		client.send({
-			text: `Sender: ${email} \n ${message}`,
+			text: `Sender: ${email} \n\n${message}`,
 			from: email,
       reply_email: email,
 			to: process.env.mail,
