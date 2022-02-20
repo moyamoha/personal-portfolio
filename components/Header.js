@@ -1,10 +1,11 @@
+import Head from "next/head";
 import React from "react"
 
 export default function Header() {
 	return (
 		<nav className="navbar container navbar-expand-lg navbar-light header">
 			<a className="navbar-brand" href="/">
-				Yahya Salimi
+				<span className="nice">Yahya Salimi</span>
 			</a>
 			<button
 				className="navbar-toggler"
@@ -26,17 +27,14 @@ export default function Header() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">
+						<a className="nav-link " href="#">
 							LinkedIn
 						</a>
 					</li>
-          <li className="nav-item">
+					<li className="nav-item">
 						<a className="nav-link" href="#">
 							Transcript of records
 						</a>
-					</li>
-					<li className="nav-item">
-            <a href={'aboutme'} className={"nav-link"}>About me</a>
 					</li>
 				</ul>
 			</div>

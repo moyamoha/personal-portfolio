@@ -2,15 +2,18 @@ import Projects from "@components/Projects";
 import Link from "next/link"
 import { useState } from "react";
 import Main from "@components/Main";
+import Work from "@components/Work";
 
 export default function Home() {
-  const [content, setContent] = useState("Projects")
+  const [content, setContent] = useState("Home")
   let component;
   if (content === "Home") {
     component =  <Main></Main>
   } else if (content === "Projects") {
     component =  <Projects></Projects>
-  }
+  } else if (content === "Work") {
+    component = <Work></Work>
+  } 
   return (
 		<>
 			<ul className="nav nav-tabs mb-3">
@@ -38,7 +41,7 @@ export default function Home() {
 						onClick={() => setContent("Work")}
 						href="#"
 					>
-						Work
+						Work/Education
 					</a>
 				</li>
 				<li className="nav-item">
