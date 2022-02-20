@@ -3,6 +3,7 @@ import Link from "next/link"
 import { useState } from "react";
 import Main from "@components/Main";
 import Work from "@components/Work";
+import Contact from "@components/Contact";
 
 export default function Home() {
   const [content, setContent] = useState("Home")
@@ -13,7 +14,9 @@ export default function Home() {
     component =  <Projects></Projects>
   } else if (content === "Work") {
     component = <Work></Work>
-  } 
+  } else {
+    component = <Contact></Contact>
+  }
   return (
 		<>
 			<ul className="nav nav-tabs mb-3 px-2 px-md-0">

@@ -24,7 +24,6 @@ function Application({ Component, pageProps }) {
 				<link rel="preconnect" href="https://fonts.googleapis.com"></link>
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin>
 				</link>
-        <Script src="https://use.fontawesome.com/e953b63cf8.js"></Script>
 				<link
 					href="https://fonts.googleapis.com/css2?family=Roboto&family=Shizuru&display=swap"
 					rel="stylesheet"
