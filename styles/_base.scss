@@ -1,0 +1,15 @@
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+@mixin  flex($dir, $jtc, $ai) {
+  display: flex;
+  justify-content: $jtc;
+  align-items: $ai;
+}
+
+%button {
+  outline: none;
+  padding: 3px 6px;
+}
