@@ -7,8 +7,7 @@ import '@styles/projects.scss'
 import '@styles/home.scss'
 import '@styles/work.scss'
 import 'bootstrap/dist/css/bootstrap.css'
-import Script from 'next/script'
-
+import '@styles/contact.scss'
 
 function Application({ Component, pageProps }) {
   useEffect(() => {

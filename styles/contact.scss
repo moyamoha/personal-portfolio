@@ -1,0 +1,31 @@
+@use './vars';
+
+@media screen and (min-width: vars.$screen-md) {
+  .contact-form {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: calc(vars.$screen-md - 1px)) {
+  .contact-form {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: vars.$screen-sm) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
+.contact-form {
+  &__section {
+    width: 100%;
+    input, textarea {
+      width: 100%;
+    }
+  }
+  button {
+    width: 25%;
+  }
+}
