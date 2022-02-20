@@ -16,7 +16,7 @@ export default function Home() {
   } 
   return (
 		<>
-			<ul className="nav nav-tabs mb-3">
+			<ul className="nav nav-tabs mb-3 px-2 px-md-0">
 				<li className="nav-item">
 					<a
 						className={content === "Home" ? "nav-link active" : "nav-link"}

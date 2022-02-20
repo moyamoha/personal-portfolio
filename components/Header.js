@@ -22,18 +22,13 @@ export default function Header() {
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav w-100 justify-content-end">
 					<li className="nav-item active">
-						<a className="nav-link" href="#">
+						<a className="nav-link" href="/Resume_Yahya.pdf" target="_blank">
 							Resume
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link " href="#">
+						<a className="nav-link " href="https://www.linkedin.com/in/yahya-salimi-6496391a8/" target="_blank">
 							LinkedIn
-						</a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-link" href="#">
-							Transcript of records
 						</a>
 					</li>
 				</ul>

@@ -18,16 +18,9 @@
     "linkToDemoOrCodebase": "https://todo-app-yahya.herokuapp.com"
   },
   {
-    "title": "A simple ksjfklsdj app",
-    "description": "App using react at the front-end and express at the backend. No database. Data in json file",
-    "techStack": ["React", "Express"],
-    "linkToDemoOrCodebase": "https://todo-app-yahya.herokuapp.com"
-  },
-  {
-    "title": "A simple dsfjksdjf app",
-    "description": "App using react at the front-end and express at the backend. No database. Data in json file",
-    "techStack": ["React", "Express"],
-    "linkToDemoOrCodebase": "https://todo-app-yahya.herokuapp.com"
+    "title": "Earthquakes visualized",
+    "description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
+    "techStack": ["React", "Css(Bootstrap)", "Leaflet"],
+    "linkToDemoOrCodebase": "https://earthquaketracker.netlify.app/"
   }
-
 ]

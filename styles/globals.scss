@@ -1,3 +1,5 @@
+@use './vars';
+
 html,
 body {
   padding: 0;
@@ -29,4 +31,10 @@ p {
 
 .excited {
   cursor: url("/heart.PNG"), pointer;
+}
+
+@media screen and (max-width: vars.$screen-md) {
+  main {
+    padding: 0 10px !important;
+  }
 }

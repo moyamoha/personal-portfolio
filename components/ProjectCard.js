@@ -7,7 +7,7 @@ function generateId() {
 
 export default function ProjectCard({project}) {
   return (
-		<div className="d-flex flex-column justify-content-center py-3 px-3 border w-25 border-success project">
+		<div className="d-flex flex-column justify-content-center py-3 px-3 border w-md-25 border-success project">
 			<h4 className='text-success'>{project.title}</h4>
 			<p>{project.description}</p>
 			<div>
@@ -16,7 +16,7 @@ export default function ProjectCard({project}) {
 					<span key={generateId()}>{ts},</span>
 				))}
 			</div>
-			<Link href={`${project.linkToDemoOrCodebase}`}>Demo/Codebase</Link>
+			<a className="project__demo-link text-primary" href={`${project.linkToDemoOrCodebase}`} target="_blank">Demo/Codebase</a>
 		</div>
 	);
 }

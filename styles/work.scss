@@ -1,4 +1,4 @@
-@use './base';
+@use './vars';
 
 .timeline {
   position: relative;
@@ -94,7 +94,7 @@
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: base.$screen-md) {
+@media screen and (max-width: vars.$screen-md) {
   /* Place the timelime to the left */
   .timeline::after {
   left: 31px;
