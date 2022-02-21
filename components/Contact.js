@@ -8,16 +8,29 @@ export default function Contact() {
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault()
-    fetch("/api/mail", {
+    const template_params = {
+      reciever: "Yahya",
+      sender_name: name,
+      sender_email: email,
+      message: message
+    }
+
+    const data = {
+      service_id: "service_dcbitlo",
+      template_id: "template_b6rsqsa",
+      user_id: "user_XgoiuZXUKi2F0OuKMPN0j",
+      template_params: template_params
+    }
+    fetch("https://api.emailjs.com/api/v1.0/email/send", {
       method: "POST",
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({"name":name, "email":email, "message":message})
-    }).then(res => res.json()).then(data => {
-      console.log(data)
-      setName("")
-      setEmail("")
-      setMessage("")
-    }).catch(err => console.error(err))
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    }).then(res => {
+      console.log(res.status)
+    })
+    setEmail(""); setMessage(""); setName("");
   })
 
   return (
