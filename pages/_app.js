@@ -10,9 +10,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '@styles/contact.scss'
 
 function Application({ Component, pageProps }) {
-  useEffect(() => {
-    import("bootstrap/dist/js/bootstrap.bundle");
-  }, []);
   return (
 		<>
 			<Head>
@@ -23,6 +20,8 @@ function Application({ Component, pageProps }) {
 				<link rel="preconnect" href="https://fonts.googleapis.com"></link>
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin>
 				</link>
+        <link rel="shortcut icon" href="/logo.jpg" />
+        <title>Yahya Salimi</title>
 				<link
 					href="https://fonts.googleapis.com/css2?family=Roboto&family=Shizuru&display=swap"
 					rel="stylesheet"

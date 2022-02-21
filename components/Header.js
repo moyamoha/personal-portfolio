@@ -5,6 +5,7 @@ export default function Header() {
 	return (
 		<nav className="navbar container navbar-expand-md px-2 px-md-0 navbar-light header">
 			<a className="navbar-brand" href="/">
+        <img src="/logo.jpg" width="25px" height="25px" alt="site logo"></img> {" "}
 				<span className="nice">Yahya Salimi</span>
 			</a>
 
