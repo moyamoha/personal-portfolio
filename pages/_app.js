@@ -1,16 +1,16 @@
-import { useEffect } from 'react'
-import Head from 'next/head'
-import Header from '@components/Header'
-import '@styles/globals.scss'
-import '@styles/header.scss'
-import '@styles/projects.scss'
-import '@styles/home.scss'
-import '@styles/work.scss'
-import 'bootstrap/dist/css/bootstrap.css'
-import '@styles/contact.scss'
+import { useEffect } from "react";
+import Head from "next/head";
+import Header from "@components/Header";
+import "@styles/globals.scss";
+import "@styles/header.scss";
+import "@styles/projects.scss";
+import "@styles/home.scss";
+import "@styles/work.scss";
+import "bootstrap/dist/css/bootstrap.css";
+import "@styles/contact.scss";
 
 function Application({ Component, pageProps }) {
-  return (
+	return (
 		<>
 			<Head>
 				<meta
@@ -18,12 +18,21 @@ function Application({ Component, pageProps }) {
 					content="width=device-width, initial-scale=1"
 				></meta>
 				<link rel="preconnect" href="https://fonts.googleapis.com"></link>
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin>
-				</link>
-        <link rel="shortcut icon" href="/logo.jpg" />
-        <title>Yahya Salimi</title>
 				<link
-					href="https://fonts.googleapis.com/css2?family=Roboto&family=Shizuru&display=swap"
+					rel="preconnect"
+					href="https://fonts.gstatic.com"
+					crossOrigin
+				></link>
+				<link rel="shortcut icon" href="/logo.jpg" />
+				<title>Yahya Salimi</title>
+				<link rel="preconnect" href="https://fonts.googleapis.com"></link>
+				<link
+					rel="preconnect"
+					href="https://fonts.gstatic.com"
+					crossOrigin
+				></link>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&family=Shizuru&display=swap"
 					rel="stylesheet"
 				></link>
 			</Head>
@@ -35,4 +44,4 @@ function Application({ Component, pageProps }) {
 	);
 }
 
-export default Application
+export default Application;

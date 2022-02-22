@@ -2,7 +2,8 @@ import { SMTPClient } from "emailjs";
 
 export default function handler(req, res) {
 	const { name, email, message } = req.body;
-  console.log(email)
+	console.log(email);
+
 	const client = new SMTPClient({
 		user: process.env.mail,
 		password: process.env.password,
@@ -14,7 +15,7 @@ export default function handler(req, res) {
 		client.send({
 			text: `Sender: ${email} \n\n${message}`,
 			from: email,
-      reply_email: email,
+			reply_email: email,
 			to: process.env.mail,
 			subject: "A message from " + name,
 		});

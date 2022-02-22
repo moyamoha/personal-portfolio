@@ -15,7 +15,7 @@ export default function Home() {
   } else if (content === "Work") {
     component = <Work></Work>
   } else {
-    component = <Contact></Contact>
+    component = <Contact setContent={setContent}></Contact>
   }
   return (
 		<>
