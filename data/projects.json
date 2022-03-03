@@ -2,7 +2,7 @@
 	{
 		"title": "Simple Password registery",
 		"description": "A simple javafx application to store user names and passwords",
-		"techStack": ["Java", "JavaFx", "Comtest (plugin)"],
+		"techStack": ["Java", " JavaFx", " Comtest (plugin)"],
 		"linkToDemoOrCodebase": "https://gitlab.jyu.fi/moyamoha/ohj2"
 	},
 	{
@@ -10,23 +10,23 @@
 		"description": "App using react at the front-end and express at the backend.",
 		"techStack": [
 			"React",
-			"Express",
-			"MongoDB ",
-			"Bootstrap ",
-			"ReduxToolkit "
+			" Express",
+			" MongoDB",
+			" Bootstrap",
+			" ReduxToolkit"
 		],
 		"linkToDemoOrCodebase": "https://github.com/moyamoha/personal-portfolio"
 	},
 	{
 		"title": "Earthquakes visualized",
 		"description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
-		"techStack": ["React", "Css(Bootstrap)", "Leaflet"],
+		"techStack": ["React", " Css(Bootstrap)", " Leaflet"],
 		"linkToDemoOrCodebase": "https://earthquaketracker.netlify.app/"
 	},
 	{
 		"title": "todo rest api",
 		"description": "When I first tried to learn django rest framework",
-		"techStack": ["Django", "Django Rest Framework", "JsonWebToken"],
+		"techStack": ["Django", " Django Rest Framework", " JsonWebToken"],
 		"linkToDemoOrCodebase": "https://github.com/moyamoha/supreme-octo-happiness"
 	}
 ]
