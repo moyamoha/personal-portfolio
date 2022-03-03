@@ -28,5 +28,17 @@
 		"description": "When I first tried to learn django rest framework",
 		"techStack": ["Django", " Django Rest Framework", " JsonWebToken"],
 		"linkToDemoOrCodebase": "https://github.com/moyamoha/supreme-octo-happiness"
+	},
+	{
+		"title": "countries listed",
+		"description": "This application lists all countries of the world in a beautiful and user-friendly user interface.",
+		"techStack": [
+			"React",
+			" Sass",
+			" React-router",
+			" ReduxToolkit",
+			" Typescript"
+		],
+		"linkToDemoOrCodebase": "https://github.com/moyamoha/countries"
 	}
 ]
