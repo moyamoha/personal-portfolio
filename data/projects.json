@@ -8,7 +8,13 @@
 	{
 		"title": "A simple todo app",
 		"description": "App using react at the front-end and express at the backend.",
-		"techStack": ["React", "Express", "MongoDB", "Bootstrap", "ReduxToolkit"],
+		"techStack": [
+			"React",
+			"Express",
+			"MongoDB ",
+			"Bootstrap ",
+			"ReduxToolkit "
+		],
 		"linkToDemoOrCodebase": "https://github.com/moyamoha/personal-portfolio"
 	},
 	{
