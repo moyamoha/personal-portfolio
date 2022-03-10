@@ -23,7 +23,7 @@ function Application({ Component, pageProps }) {
 					href="https://fonts.gstatic.com"
 					crossOrigin
 				></link>
-				<link rel="shortcut icon" href="/logo.jpg" />
+				<link rel="shortcut icon" href="/favicon.PNG" />
 				<title>Yahya Salimi</title>
 				<link rel="preconnect" href="https://fonts.googleapis.com"></link>
 				<link
