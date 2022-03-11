@@ -40,5 +40,11 @@
 			" Typescript"
 		],
 		"linkToDemoOrCodebase": "https://github.com/moyamoha/countries"
+	},
+	{
+		"title": "Url shortener",
+		"description": "A very basic mern application that makes your urls shorter",
+		"techStack": ["React", " Express", " MongoDB"],
+		"linkToDemoOrCodebase": "https://lyhenna.herokuapp.com/"
 	}
 ]
