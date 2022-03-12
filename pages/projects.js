@@ -1,10 +1,10 @@
-import React from 'react'
-import data from '../data/projects.json'
-import ProjectCard from '@components/ProjectCard'
+import data from "../data/projects.json";
+import Layout from "@components/Layout";
+import ProjectCard from "@components/ProjectCard";
 
 export default function Projects() {
-  return (
-		<>
+	return (
+		<Layout>
 			<div className="container px-md-0">
 				<h1>Projects</h1>
 				<p>
@@ -17,6 +17,6 @@ export default function Projects() {
 					<ProjectCard key={proj.title} project={proj}></ProjectCard>
 				))}
 			</div>
-		</>
+		</Layout>
 	);
 }

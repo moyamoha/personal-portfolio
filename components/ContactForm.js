@@ -1,7 +1,6 @@
-import axios from "axios";
 import React, { useCallback, useState } from "react";
 
-export default function Contact({ setContent }) {
+export default function ContactForm({ setContent }) {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
