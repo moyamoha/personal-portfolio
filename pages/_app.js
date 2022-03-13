@@ -35,6 +35,10 @@ function Application({ Component, pageProps }) {
 					href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&family=Shizuru&display=swap"
 					rel="stylesheet"
 				></link>
+				<meta
+					name="description"
+					content="Personal website of Yahya Salimi from Integrify"
+				></meta>
 			</Head>
 			<Header></Header>
 			<main className="container p-0 mt-4">
