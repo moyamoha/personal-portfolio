@@ -3,7 +3,7 @@
 		"title": "Simple Password registery",
 		"description": "A simple javafx application to store user names and passwords",
 		"techStack": ["Java", ", JavaFx", ", Comtest (plugin)"],
-		"linkToDemoOrCodebase": "https://gitlab.jyu.fi/moyamoha/ohj2"
+		"codebaseLink": "https://gitlab.jyu.fi/moyamoha/ohj2"
 	},
 	{
 		"title": "A simple todo app",
@@ -15,19 +15,20 @@
 			", Bootstrap",
 			", ReduxToolkit"
 		],
-		"linkToDemoOrCodebase": "https://github.com/moyamoha/to-do-app"
+		"codebaseLink": "https://github.com/moyamoha/to-do-app",
+		"starred": true
 	},
 	{
 		"title": "Earthquakes visualized",
 		"description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
 		"techStack": ["React", ", Css(Bootstrap)", ", Leaflet"],
-		"linkToDemoOrCodebase": "https://earthquaketracker.netlify.app/"
+		"demoLink": "https://earthquaketracker.netlify.app/"
 	},
 	{
 		"title": "todo rest api",
 		"description": "When I first tried to learn django rest framework",
 		"techStack": ["Django", ", Django Rest Framework", ", JsonWebToken"],
-		"linkToDemoOrCodebase": "https://github.com/moyamoha/supreme-octo-happiness"
+		"codebaseLink": "https://github.com/moyamoha/supreme-octo-happiness"
 	},
 	{
 		"title": "countries listed",
@@ -39,18 +40,26 @@
 			", ReduxToolkit",
 			", Typescript"
 		],
-		"linkToDemoOrCodebase": "https://github.com/moyamoha/countries"
+		"codebaseLink": "https://github.com/moyamoha/countries"
 	},
 	{
 		"title": "Url shortener",
 		"description": "A very basic mern application that makes your urls shorter",
 		"techStack": ["React", ", Express", ", MongoDB"],
-		"linkToDemoOrCodebase": "https://lyhenna.herokuapp.com/"
+		"demoLink": "https://lyhenna.herokuapp.com/",
+		"codebaseLink": "https://github.com/moyamoha/urlshortener"
 	},
 	{
 		"title": "Library App",
-		"description": "Library application that lets user to login by google and borrow books, Admin can however do more like adding, deleting and editing books, authors and users(only deleting)",
-		"techStack": ["React", ", Express", ", MongoDB", ", nodejs"],
-		"linkToDemoOrCodebase": "https://fs9-library-app.netlify.app/"
+		"description": "Library application that lets user to login by google and borrow books, Admin can however do more like adding, deleting and editing books, authors and users (only deleting)",
+		"techStack": [
+			"React",
+			", Express",
+			", MongoDB",
+			", nodejs",
+			", ReduxToolkit"
+		],
+		"demoLink": "https://fs9-library-app.netlify.app/",
+		"starred": true
 	}
 ]
