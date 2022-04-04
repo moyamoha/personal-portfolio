@@ -46,5 +46,11 @@
 		"description": "A very basic mern application that makes your urls shorter",
 		"techStack": ["React", ", Express", ", MongoDB"],
 		"linkToDemoOrCodebase": "https://lyhenna.herokuapp.com/"
+	},
+	{
+		"title": "Library App",
+		"description": "Library application that lets user to login by google and borrow books, Admin can however do more like adding, deleting and editing books, authors and users(only deleting)",
+		"techStack": ["React", ", Express", ", MongoDB", ", nodejs"],
+		"linkToDemoOrCodebase": "https://fs9-library-app.netlify.app/"
 	}
 ]
