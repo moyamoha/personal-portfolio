@@ -1,9 +1,11 @@
 import React, { useCallback, useState } from "react";
+import { useRouter } from "next/router";
 
-export default function ContactForm({ setContent }) {
+export default function ContactForm() {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
+	const router = useRouter();
 
 	const handleSubmit = useCallback((e) => {
 		e.preventDefault();
@@ -32,14 +34,14 @@ export default function ContactForm({ setContent }) {
 		setEmail("");
 		setMessage("");
 		setName("");
-		setContent("Home");
+		router.push("/");
 	});
 
 	return (
 		<form onSubmit={handleSubmit} className="contact-form p-2">
 			<section className="mb-3 contact-form__section">
 				<label className="d-block mb-1" htmlFor="name">
-					Name
+					Name *
 				</label>
 				<input
 					type="text"
@@ -53,7 +55,7 @@ export default function ContactForm({ setContent }) {
 			</section>
 			<section className="mb-3 contact-form__section">
 				<label htmlFor="email" className="d-block mb-1">
-					Email
+					Email *
 				</label>
 				<input
 					type="email"
@@ -73,9 +75,14 @@ export default function ContactForm({ setContent }) {
 					style={{ resize: "vertical", height: "200px" }}
 					className="py-1 px-2"
 					onChange={(e) => setMessage(e.target.value)}
-					required
-					minLength={50}
 				></textarea>
+				<p
+					className="text-secondary lh-sm mt-1"
+					style={{ fontSize: "0.80rem" }}
+				>
+					Ps: If you let message empty, I suppose that you want to contact me
+					personally in advance. I will thus get back to you via email
+				</p>
 			</section>
 			<button type="submit" className="btn btn-success mt-2">
 				Submit
