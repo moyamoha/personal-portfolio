@@ -5,10 +5,19 @@ export default function ContactForm() {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
+	const [nameError, setNameError] = useState("");
+	const [emailError, setEmailError] = useState("");
 	const router = useRouter();
 
 	const handleSubmit = useCallback((e) => {
 		e.preventDefault();
+		if (name === "") {
+			setNameError("Please provide your name");
+			return;
+		} else if (email === "") {
+			setEmailError("Please provide your email");
+			return;
+		}
 		const template_params = {
 			reciever: "Yahya",
 			sender_name: name,
@@ -45,13 +54,18 @@ export default function ContactForm() {
 				</label>
 				<input
 					type="text"
-					required
 					value={name}
 					className="py-1 px-2"
 					name="name"
 					id="name"
-					onChange={(e) => setName(e.target.value)}
+					onChange={(e) => {
+						setName(e.target.value);
+						setNameError("");
+					}}
 				></input>
+				<p className="text-danger lh-sm mt-1" style={{ fontSize: "0.80rem" }}>
+					{nameError}
+				</p>
 			</section>
 			<section className="mb-3 contact-form__section">
 				<label htmlFor="email" className="d-block mb-1">
@@ -60,12 +74,17 @@ export default function ContactForm() {
 				<input
 					type="email"
 					className="py-1 px-2"
-					required
 					value={email}
 					name="email"
 					id="email"
-					onChange={(e) => setEmail(e.target.value)}
+					onChange={(e) => {
+						setEmail(e.target.value);
+						setEmailError("");
+					}}
 				></input>
+				<p className="text-danger lh-sm mt-1" style={{ fontSize: "0.80rem" }}>
+					{emailError}
+				</p>
 			</section>
 			<section className="contact-form__section mb-3">
 				<label className="d-block mb-1">Your message</label>
