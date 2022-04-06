@@ -16,13 +16,15 @@
 			", ReduxToolkit"
 		],
 		"codebaseLink": "https://github.com/moyamoha/to-do-app",
+		"demoLink": "https://todo-yahya.netlify.app/",
 		"starred": true
 	},
 	{
 		"title": "Earthquakes visualized",
 		"description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
 		"techStack": ["React", ", Css(Bootstrap)", ", Leaflet"],
-		"demoLink": "https://earthquaketracker.netlify.app/"
+		"demoLink": "https://earthquaketracker.netlify.app/",
+		"codebaseLink": "https://github.com/moyamoha/significant-earthquakes"
 	},
 	{
 		"title": "todo rest api",
@@ -40,7 +42,8 @@
 			", ReduxToolkit",
 			", Typescript"
 		],
-		"codebaseLink": "https://github.com/moyamoha/countries"
+		"codebaseLink": "https://github.com/moyamoha/countries",
+		"demoLink": "https://countries-listed.netlify.app/"
 	},
 	{
 		"title": "Url shortener",

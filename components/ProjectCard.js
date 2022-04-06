@@ -29,7 +29,8 @@ export default function ProjectCard({ project }) {
 					</a>
 				) : (
 					<></>
-				)}{" "}
+				)}
+				{project.demoLink && project.codebaseLink ? " | " : " "}
 				{project.codebaseLink ? (
 					<a
 						className="project__demo-link text-primary"
