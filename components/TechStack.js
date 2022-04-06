@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export default function TechStack() {
-  return (
+	return (
 		<>
 			<h5 className="text-success">Technologies I know: </h5>
 			<section
@@ -78,6 +78,16 @@ export default function TechStack() {
 					/>{" "}
 					Java
 				</span>
+				<span>
+					<img
+						src="/node-js-brands.svg"
+						alt="Icon of Nodejs"
+						width="20px"
+						height="20px"
+						className="d-inline"
+					/>{" "}
+					NodeJs
+				</span>
 			</section>
 			<br></br>
 			<h5 className="text-info">Technologies I wish to learn next: </h5>
@@ -114,16 +124,6 @@ export default function TechStack() {
 						className="d-inline"
 					/>{" "}
 					Linux
-				</span>
-				<span>
-					<img
-						src="/node-js-brands.svg"
-						alt="Icon of Nodejs"
-						width="20px"
-						height="20px"
-						className="d-inline"
-					/>{" "}
-					NodeJs
 				</span>
 			</section>
 		</>
