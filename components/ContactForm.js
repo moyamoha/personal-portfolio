@@ -103,7 +103,7 @@ export default function ContactForm() {
 					personally in advance. I will thus get back to you via email
 				</p>
 			</section>
-			<button type="submit" className="btn btn-success mt-2">
+			<button type="submit" className="btn btn-outline-success mt-2">
 				Submit
 			</button>
 		</form>
