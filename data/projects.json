@@ -64,5 +64,23 @@
 		],
 		"demoLink": "https://fs9-library-app.netlify.app/",
 		"starred": true
+	},
+	{
+		"title": "Stuhelp",
+		"description": "An application to help university students track their courses and progress. Originally made for personal use",
+		"techStack": [
+			"Vue",
+			", Express",
+			", MongoDB",
+			", nodejs",
+			", Vuex",
+			", Aws sdk (s3 bucket)",
+			", Vue router",
+			", Vuetify",
+			", github actions"
+		],
+		"demoLink": "https://stuhelp.netlify.app/",
+		"codebaseLink": "https://github.com/moyamoha/course-management",
+		"starred": true
 	}
 ]
