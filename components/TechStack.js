@@ -88,13 +88,6 @@ export default function TechStack() {
 					/>{" "}
 					NodeJs
 				</span>
-			</section>
-			<br></br>
-			<h5 className="text-info">Technologies I wish to learn next: </h5>
-			<section
-				className="d-flex align-items-center flex-column flex-md-row"
-				style={{ gap: "15px" }}
-			>
 				<span>
 					<img
 						src="/vuejs-brands.svg"
@@ -105,6 +98,13 @@ export default function TechStack() {
 					/>{" "}
 					Vue.js
 				</span>
+			</section>
+			<br></br>
+			<h5 className="text-info">Technologies I wish to learn next: </h5>
+			<section
+				className="d-flex align-items-center flex-column flex-md-row"
+				style={{ gap: "15px" }}
+			>
 				<span>
 					<img
 						src="/aws-brands.svg"

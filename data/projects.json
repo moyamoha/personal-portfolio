@@ -69,7 +69,7 @@
 		"title": "Stuhelp",
 		"description": "An application to help university students track their courses and progress. Originally made for personal use",
 		"techStack": [
-			"Vue",
+			"Vue 2",
 			", Express",
 			", MongoDB",
 			", nodejs",
