@@ -12,6 +12,7 @@ export default function TechStack() {
 		{ src: "/java-brands.svg", name: "Java" },
 		{ src: "/node-js-brands.svg", name: "NodeJs" },
 		{ src: "/vuejs-brands.svg", name: "Vue" },
+		{ src: "/nestjs-brands.svg", name: "Nestjs" },
 	];
 
 	const toBeLearnedSkills = [

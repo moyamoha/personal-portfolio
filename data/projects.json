@@ -82,5 +82,20 @@
 		"demoLink": "https://stuhelp.netlify.app/",
 		"codebaseLink": "https://github.com/moyamoha/course-management",
 		"starred": true
+	},
+	{
+		"title": "Goal App",
+		"description": "An application to help people track their goals and get motivated",
+		"techStack": [
+			"NextJs",
+			", NestJs",
+			", MongoDB",
+			", nodejs",
+			", nodemailer",
+			", github actions"
+		],
+		"demoLink": "https://goalie.netlify.app/",
+		"codebaseLink": "https://github.com/moyamoha/goalapp",
+		"starred": true
 	}
 ]
