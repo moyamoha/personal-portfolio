@@ -91,11 +91,26 @@
 			", NestJs",
 			", MongoDB",
 			", nodejs",
-			", nodemailer",
 			", github actions"
 		],
 		"demoLink": "https://goalie.netlify.app/",
 		"codebaseLink": "https://github.com/moyamoha/goalapp",
+		"starred": true
+	},
+	{
+		"title": "Gaurdian",
+		"description": "An application for storing credentials (passwords or/and usernames)",
+		"techStack": [
+			"Vue 2",
+			", NestJs",
+			", MongoDB",
+			", Vuetify",
+			", NodeMailer",
+			", nodejs",
+			", github actions"
+		],
+		"demoLink": "https://gaurdian.netlify.app/",
+		"codebaseLink": "https://github.com/moyamoha/gaurdian",
 		"starred": true
 	}
 ]
