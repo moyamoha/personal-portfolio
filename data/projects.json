@@ -109,8 +109,8 @@
 			", nodejs",
 			", github actions"
 		],
-		"demoLink": "https://gaurdian.netlify.app/",
-		"codebaseLink": "https://github.com/moyamoha/gaurdian",
+		"demoLink": "https://vartija.netlify.app/",
+		"codebaseLink": "https://github.com/moyamoha/guardian",
 		"starred": true
 	}
 ]
