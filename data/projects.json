@@ -84,20 +84,6 @@
 		"starred": true
 	},
 	{
-		"title": "Goal App",
-		"description": "An application to help people track their goals and get motivated",
-		"techStack": [
-			"NextJs",
-			", NestJs",
-			", MongoDB",
-			", nodejs",
-			", github actions"
-		],
-		"demoLink": "https://goalie.netlify.app/",
-		"codebaseLink": "https://github.com/moyamoha/goalapp",
-		"starred": true
-	},
-	{
 		"title": "Gaurdian",
 		"description": "An application for storing credentials (passwords or/and usernames)",
 		"techStack": [
