@@ -3,6 +3,21 @@ import React from "react";
 export default function Work() {
 	return (
 		<div className="timeline">
+			<div className="workcontainer right">
+				<div className="content">
+					<h2 className="text-info">9/2022 - present</h2>
+					<h5 className="text-warning">
+						Junior software developer at Eduhouse Oy{" "}
+					</h5>
+					<p>
+						My first ever paid job as a software developer. Eduhouse is a
+						e-learning service provider. My role is to contribute in
+						further-developing and/or maintaining their platforms and services.
+						Eduhouse uses modern stack and new technologies, something that I
+						really appreciate
+					</p>
+				</div>
+			</div>
 			<div className="workcontainer left">
 				<div className="content">
 					<h2 className="text-info">1/2022 - 6/2022</h2>
