@@ -1,11 +1,5 @@
 [
 	{
-		"title": "Simple Password registery",
-		"description": "A simple javafx application to store user names and passwords",
-		"techStack": ["Java", ", JavaFx", ", Comtest (plugin)"],
-		"codebaseLink": "https://gitlab.jyu.fi/moyamoha/ohj2"
-	},
-	{
 		"title": "A simple todo app",
 		"description": "App using react at the front-end and express at the backend.",
 		"techStack": [
