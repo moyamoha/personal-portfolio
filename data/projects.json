@@ -16,14 +16,14 @@
 			", ReduxToolkit"
 		],
 		"codebaseLink": "https://github.com/moyamoha/to-do-app",
-		"demoLink": "https://todo-yahya.netlify.app/",
+		"demoLink": "https://todo.yahyasalimi.com/",
 		"starred": true
 	},
 	{
 		"title": "Earthquakes visualized",
 		"description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
 		"techStack": ["React", ", Css(Bootstrap)", ", Leaflet"],
-		"demoLink": "https://earthquaketracker.netlify.app/",
+		"demoLink": "https://earthquaketracker.yahyasalimi.com/",
 		"codebaseLink": "https://github.com/moyamoha/significant-earthquakes"
 	},
 	{
@@ -49,7 +49,6 @@
 		"title": "Url shortener",
 		"description": "A very basic mern application that makes your urls shorter",
 		"techStack": ["React", ", Express", ", MongoDB"],
-		"demoLink": "https://lyhenna.herokuapp.com/",
 		"codebaseLink": "https://github.com/moyamoha/urlshortener"
 	},
 	{
@@ -79,7 +78,7 @@
 			", Vuetify",
 			", github actions"
 		],
-		"demoLink": "https://stuhelp.netlify.app/",
+		"demoLink": "https://student.yahyasalimi.com/",
 		"codebaseLink": "https://github.com/moyamoha/course-management",
 		"starred": true
 	},
@@ -95,7 +94,7 @@
 			", nodejs",
 			", github actions"
 		],
-		"demoLink": "https://vartija.netlify.app/",
+		"demoLink": "https://vartija.yahyasalimi.com/",
 		"codebaseLink": "https://github.com/moyamoha/guardian",
 		"starred": true
 	}
