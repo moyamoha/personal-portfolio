@@ -10,7 +10,6 @@
 			", ReduxToolkit"
 		],
 		"codebaseLink": "https://github.com/moyamoha/to-do-app",
-		"demoLink": "https://todo.yahyasalimi.com/",
 		"starred": true
 	},
 	{
@@ -37,7 +36,7 @@
 			", Typescript"
 		],
 		"codebaseLink": "https://github.com/moyamoha/countries",
-		"demoLink": "https://countries-listed.netlify.app/"
+		"demoLink": "https://countries-listed.yahyasalimi.com/"
 	},
 	{
 		"title": "Url shortener",
@@ -55,7 +54,6 @@
 			", nodejs",
 			", ReduxToolkit"
 		],
-		"demoLink": "https://fs9-library-app.netlify.app/",
 		"starred": true
 	},
 	{
@@ -72,7 +70,6 @@
 			", Vuetify",
 			", github actions"
 		],
-		"demoLink": "https://student.yahyasalimi.com/",
 		"codebaseLink": "https://github.com/moyamoha/course-management",
 		"starred": true
 	},
@@ -88,7 +85,6 @@
 			", nodejs",
 			", github actions"
 		],
-		"demoLink": "https://vartija.yahyasalimi.com/",
 		"codebaseLink": "https://github.com/moyamoha/guardian",
 		"starred": true
 	}
