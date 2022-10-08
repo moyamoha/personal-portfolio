@@ -5,7 +5,7 @@ import TechStack from "./TechStack";
 export default function Main() {
 	return (
 		<div className="container-fluid d-md-flex px-sm-0 pt-2">
-			<img className="my-img" src="/yahya.jpg" alt="picture of yahya"></img>
+			<img className="my-img" src="/Me.jpg" alt="picture of yahya"></img>
 			<section className="w-100">
 				<p>
 					I am an IT-student at the university of Jyväskylä. Currently I am
