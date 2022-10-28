@@ -1,91 +1,91 @@
 [
-	{
-		"title": "A simple todo app",
-		"description": "App using react at the front-end and express at the backend.",
-		"techStack": [
-			"React",
-			", Express",
-			", MongoDB",
-			", Bootstrap",
-			", ReduxToolkit"
-		],
-		"codebaseLink": "https://github.com/moyamoha/to-do-app",
-		"starred": true
-	},
-	{
-		"title": "Earthquakes visualized",
-		"description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
-		"techStack": ["React", ", Css(Bootstrap)", ", Leaflet"],
-		"demoLink": "https://earthquaketracker.yahyasalimi.com/",
-		"codebaseLink": "https://github.com/moyamoha/significant-earthquakes"
-	},
-	{
-		"title": "todo rest api",
-		"description": "When I first tried to learn django rest framework",
-		"techStack": ["Django", ", Django Rest Framework", ", JsonWebToken"],
-		"codebaseLink": "https://github.com/moyamoha/supreme-octo-happiness"
-	},
-	{
-		"title": "countries listed",
-		"description": "This application lists all countries of the world in a beautiful and user-friendly user interface.",
-		"techStack": [
-			"React",
-			", Sass",
-			", React-router",
-			", ReduxToolkit",
-			", Typescript"
-		],
-		"codebaseLink": "https://github.com/moyamoha/countries",
-		"demoLink": "https://countriesinfo.yahyasalimi.com/"
-	},
-	{
-		"title": "Url shortener",
-		"description": "A very basic mern application that makes your urls shorter",
-		"techStack": ["React", ", Express", ", MongoDB"],
-		"codebaseLink": "https://github.com/moyamoha/urlshortener"
-	},
-	{
-		"title": "Library App",
-		"description": "Library application that lets user to login by google and borrow books, Admin can however do more like adding, deleting and editing books, authors and users (only deleting)",
-		"techStack": [
-			"React",
-			", Express",
-			", MongoDB",
-			", nodejs",
-			", ReduxToolkit"
-		],
-		"starred": true
-	},
-	{
-		"title": "Stuhelp",
-		"description": "An application to help university students track their courses and progress. Originally made for personal use",
-		"techStack": [
-			"Vue 2",
-			", Express",
-			", MongoDB",
-			", nodejs",
-			", Vuex",
-			", Aws sdk (s3 bucket)",
-			", Vue router",
-			", Vuetify",
-			", github actions"
-		],
-		"codebaseLink": "https://github.com/moyamoha/course-management",
-		"starred": true
-	},
-	{
-		"title": "Gaurdian",
-		"description": "An application for storing credentials (passwords or/and usernames)",
-		"techStack": [
-			"Vue 2",
-			", NestJs",
-			", MongoDB",
-			", Vuetify",
-			", NodeMailer",
-			", nodejs",
-			", github actions"
-		],
-		"codebaseLink": "https://github.com/moyamoha/guardian",
-		"starred": true
-	}
+  {
+    "title": "A simple todo app",
+    "description": "App using react at the front-end and express at the backend.",
+    "techStack": [
+      "React",
+      ", Express",
+      ", MongoDB",
+      ", Bootstrap",
+      ", ReduxToolkit"
+    ],
+    "codebaseLink": "https://github.com/moyamoha/to-do-app",
+    "starred": true
+  },
+  {
+    "title": "Earthquakes visualized",
+    "description": "Made durign a team project in university, this SPA is a visualization of most significant earthquakes in history",
+    "techStack": ["React", ", Css(Bootstrap)", ", Leaflet"],
+    "demoLink": "https://earthquaketracker.yahyasalimi.com/",
+    "codebaseLink": "https://github.com/moyamoha/significant-earthquakes"
+  },
+  {
+    "title": "todo rest api",
+    "description": "When I first tried to learn django rest framework",
+    "techStack": ["Django", ", Django Rest Framework", ", JsonWebToken"],
+    "codebaseLink": "https://github.com/moyamoha/supreme-octo-happiness"
+  },
+  {
+    "title": "countries listed",
+    "description": "This application lists all countries of the world in a beautiful and user-friendly user interface.",
+    "techStack": [
+      "React",
+      ", Sass",
+      ", React-router",
+      ", ReduxToolkit",
+      ", Typescript"
+    ],
+    "codebaseLink": "https://github.com/moyamoha/countries",
+    "demoLink": "https://countriesinfo.yahyasalimi.com/"
+  },
+  {
+    "title": "Url shortener",
+    "description": "A very basic mern application that makes your urls shorter",
+    "techStack": ["React", ", Express", ", MongoDB"],
+    "codebaseLink": "https://github.com/moyamoha/urlshortener"
+  },
+  {
+    "title": "Library App",
+    "description": "Library application that lets user to login by google and borrow books, Admin can however do more like adding, deleting and editing books, authors and users (only deleting)",
+    "techStack": [
+      "React",
+      ", Express",
+      ", MongoDB",
+      ", nodejs",
+      ", ReduxToolkit"
+    ],
+    "starred": true
+  },
+  {
+    "title": "Stuhelp",
+    "description": "An application to help university students track their courses and progress. Originally made for personal use",
+    "techStack": [
+      "Vue 2",
+      ", Express",
+      ", MongoDB",
+      ", nodejs",
+      ", Vuex",
+      ", Aws sdk (s3 bucket)",
+      ", Vue router",
+      ", Vuetify",
+      ", github actions"
+    ],
+    "codebaseLink": "https://github.com/moyamoha/course-management",
+    "starred": true
+  },
+  {
+    "title": "Gaurdian",
+    "description": "An application for storing credentials (passwords or/and usernames)",
+    "techStack": [
+      "Vue 2",
+      ", NestJs",
+      ", MongoDB",
+      ", Vuetify",
+      ", NodeMailer",
+      ", nodejs",
+      ", github actions"
+    ],
+    "codebaseLink": "https://github.com/moyamoha/guardian",
+    "starred": true
+  }
 ]

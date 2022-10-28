@@ -3,9 +3,9 @@ import Work from "@components/Work";
 import React from "react";
 
 export default function Experience() {
-	return (
-		<Layout>
-			<Work></Work>
-		</Layout>
-	);
+  return (
+    <Layout>
+      <Work></Work>
+    </Layout>
+  );
 }
