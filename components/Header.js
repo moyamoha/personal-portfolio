@@ -15,12 +15,7 @@ export default function Header() {
 
       <ul className="navbar-nav w-100 justify-content-end">
         <li className="nav-item active">
-          <a
-            className="nav-link"
-            href="/40days-setup-v_1.exe"
-            target="_blank"
-            download={true}
-          >
+          <a className="nav-link" href="/40days">
             40Days
           </a>
         </li>
