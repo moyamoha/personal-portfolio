@@ -10,21 +10,21 @@ export default function Forty() {
       </h2>
       <p>
         40Days is a desktop application that helps user adopt new healthy habits
-        and get rid of unhealthy ones
+        and get rid of unhealthy ones 🔥
       </p>
       <ul>
         <li>
-          Create a spell of tracking your behaviours. Spell&#39;s length is 40
-          days
+          ⏲️ Create a spell of tracking your behaviours. Spell&#39;s length is
+          40 days
         </li>
-        <li>Create activitys that you want to track</li>
-        <li>Repeat an activity/action for forty days</li>
+        <li>📓 Create activitys that you want to track</li>
+        <li>🔁 Repeat an activity/action for forty days</li>
         <li>
-          Activity can be also negative e.g &quot;not to procrastinate&quot;
+          ❌ Activity can be also negative e.g &quot;not to procrastinate&quot;
         </li>
-        <li>After 40 days, a new &quot;YOU&quot; is born</li>
+        <li>🎉 After 40 days, a new &quot;YOU&quot; is born</li>
         <li>
-          Create even more spells and activities untill you become the best
+          😎 Create even more spells and activities untill you become the best
           version of yourself
         </li>
       </ul>
