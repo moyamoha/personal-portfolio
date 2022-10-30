@@ -47,10 +47,10 @@ export default function Forty() {
           </a>
         </p>
         <p>
-          Mac Os: <i>Coming soon</i>
-        </p>
-        <p>
-          Linux: <i>Coming soon</i>
+          Linux/Mac OS:{" "}
+          <a href="/40days-x64.zip" download={true} target="_blank">
+            40days-x64.zip
+          </a>
         </p>
       </div>
     </Layout>
