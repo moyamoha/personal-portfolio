@@ -33,3 +33,8 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+## My things
+public/40days-setup-v_1.exe
+pages/40days.js
+draft.txt
