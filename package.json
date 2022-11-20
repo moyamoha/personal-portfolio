@@ -17,6 +17,6 @@
     "sass": "^1.49.7"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.2.5"
+    "@netlify/plugin-nextjs": "^4.29.1"
   }
 }
