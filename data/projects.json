@@ -88,5 +88,16 @@
     "codebaseLink": "https://github.com/moyamoha/guardian",
     "demoLink": "https://vartija.yahyasalimi.com/",
     "starred": true
+  },
+  {
+    "title": "devcli",
+    "description": "A tiny cli for my personal use. Has only 10 commands, one of which is used to download youtube video 😎",
+    "techStack": [
+      "Python 3.11.0",
+      ", Typer (a python library for writing quick CLIs)",
+      ", Pyinstaller",
+      ", pytube"
+    ],
+    "codebaseLink": "https://github.com/moyamoha/devcli"
   }
 ]
