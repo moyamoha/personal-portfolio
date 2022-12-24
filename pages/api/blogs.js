@@ -36,6 +36,6 @@ export default async function handler(req, res) {
     await fs.writeFile("./data/blogs.json", JSON.stringify(blogs));
     res.status(200).end();
   } catch (e) {
-    res.status(400).end();
+    res.json(JSON.stringify(e));
   }
 }
