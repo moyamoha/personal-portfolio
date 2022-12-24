@@ -2,7 +2,7 @@ import Layout from "@components/Layout";
 import { useRouter } from "next/router";
 import React from "react";
 
-import { getBlogDate, slugifyTitle } from "utils/string";
+import { captitalizeTitle, getBlogDate, slugifyTitle } from "utils/string";
 import blogs from "../../data/blogs.json";
 
 export default function Blog() {
@@ -15,7 +15,7 @@ export default function Blog() {
     <Layout>
       {blog ? (
         <div className="container-fluid blog">
-          <h2 className="blog__title">{blog.title}</h2>
+          <h2 className="blog__title">{captitalizeTitle(blog.title)}</h2>
           <span className="blog__date">{getBlogDate(blog.updatedAt)}</span>
           <div
             className="blog__content"

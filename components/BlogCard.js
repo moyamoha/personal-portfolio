@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  captitalizeTitle,
   getBlogDate,
   getShortContentForBlog,
   slugifyTitle,
@@ -13,7 +14,7 @@ export default function BlogCard({ blog }) {
 
   return (
     <div className="blog-card px-3 d-flex flex-column py-2 mt-3">
-      <h4 className="blog-card__title">{blog.title}</h4>
+      <h4 className="blog-card__title">{captitalizeTitle(blog.title)}</h4>
       <span className="blog-card__date">{getBlogDate(blog.updatedAt)}</span>
       <p>{shortContent}</p>
       <a

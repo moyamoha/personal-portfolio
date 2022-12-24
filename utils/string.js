@@ -20,3 +20,7 @@ export const getBlogDate = (blogDate) => {
 export const slugifyTitle = (blogTitle) => {
   return blogTitle.toLowerCase().split(" ").join("-");
 };
+
+export const captitalizeTitle = (blogTitle) => {
+  return blogTitle[0].toUpperCase() + blogTitle.substring(1);
+};
