@@ -24,10 +24,13 @@ export default async function handler(req, res) {
     res.status(400).end();
     return;
   }
-  const filePath = "../../data/blogs.json";
+  const dataFolderPath = path.join(process.cwd(), "data");
   console.log(filePath);
   try {
-    const fileBuffer = await fs.readFile(filePath);
+    const fileBuffer = await fs.readFile(
+      dataFolderPath + "/blogs.json",
+      "utf8"
+    );
     const blogs = JSON.parse(fileBuffer);
     const blogObject = {
       title: req.body.title,
@@ -35,7 +38,7 @@ export default async function handler(req, res) {
       updatedAt: new Date().toISOString(),
     };
     blogs.push(blogObject);
-    await fs.writeFile(filePath, JSON.stringify(blogs));
+    await fs.writeFile(dataFolderPath + "/blogs.json", JSON.stringify(blogs));
     res.status(200).end();
   } catch (e) {
     res.json(e);
