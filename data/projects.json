@@ -1,15 +1,16 @@
 [
   {
     "title": "A simple todo app",
-    "description": "App using react at the front-end and express at the backend.",
+    "description": "A desktop application",
     "techStack": [
       "React",
       ", Express",
       ", MongoDB",
       ", Bootstrap",
-      ", ReduxToolkit"
+      ", ReduxToolkit",
+      ", electronjs"
     ],
-    "codebaseLink": "https://github.com/moyamoha/to-do-app",
+    "codebaseLink": "https://github.com/moyamoha/todo-electron",
     "starred": true
   },
   {

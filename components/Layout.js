@@ -30,9 +30,19 @@ export default function Layout({ children }) {
             className={
               currentPath === "/experience" ? "nav-link active" : "nav-link"
             }
-            href="experience"
+            href="/experience"
           >
             Work/Education
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            className={
+              currentPath === "/blogs" ? "nav-link active" : "nav-link"
+            }
+            href="/blogs"
+          >
+            Blog
           </a>
         </li>
         <li className="nav-item">

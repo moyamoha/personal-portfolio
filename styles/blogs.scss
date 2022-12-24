@@ -1,0 +1,53 @@
+.blog-card {
+  border: 1px solid #68b984;
+  width: 100%;
+  height: fit-content;
+  gap: 10px;
+  border-radius: 10px;
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__date {
+    font-size: small;
+    color: #434343;
+  }
+
+  &__readmore {
+    color: rgb(110, 163, 29) !important;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  &__readmore:hover {
+    letter-spacing: 1.2px;
+    text-decoration: underline;
+  }
+}
+
+.blog {
+  color: #4b5563;
+
+  &__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+
+  &__date {
+    color: #9ca3af;
+    font-size: 0.9rem;
+  }
+
+  &__content {
+    margin-top: 1.2rem;
+
+    p {
+      color: #4b5563;
+      line-height: 1.625rem;
+    }
+  }
+}
