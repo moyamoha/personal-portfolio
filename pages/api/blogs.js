@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import Cors from "cors";
+import path from "path";
 
 const cors = Cors({
   methods: ["POST", "GET", "HEAD"],
@@ -23,8 +24,10 @@ export default async function handler(req, res) {
     res.status(400).end();
     return;
   }
+  const filePath = path.join(process.cwd(), "data/blogs.json");
+  console.log(filePath);
   try {
-    const fileBuffer = await fs.readFile("../../data/blogs.json");
+    const fileBuffer = await fs.readFile(filePath);
     const blogs = JSON.parse(fileBuffer);
     const blogObject = {
       title: req.body.title,
@@ -32,9 +35,9 @@ export default async function handler(req, res) {
       updatedAt: new Date().toISOString(),
     };
     blogs.push(blogObject);
-    await fs.writeFile("../../data/blogs.json", JSON.stringify(blogs));
+    await fs.writeFile(filePath, JSON.stringify(blogs));
     res.status(200).end();
   } catch (e) {
-    res.json(JSON.stringify(e));
+    res.json(e);
   }
 }
