@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     res.status(400).end();
     return;
   }
-  const filePath = path.join(process.cwd(), "data/blogs.json");
+  const filePath = "../../data/blogs.json";
   console.log(filePath);
   try {
     const fileBuffer = await fs.readFile(filePath);
