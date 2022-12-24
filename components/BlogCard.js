@@ -10,6 +10,7 @@ export default function BlogCard({ blog }) {
   const shortContent = React.useMemo(() => {
     return getShortContentForBlog(blog.content);
   }, [blog]);
+
   return (
     <div className="blog-card px-3 d-flex flex-column py-2 mt-3">
       <h4 className="blog-card__title">{blog.title}</h4>

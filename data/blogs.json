@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "title": "How to write clean and readable code?",
+    "content": "<p>The importance of clean code is not hidden from anybody. Though people will talk about it for hours, fewer know actually how to write it. Here in this article, I have gathered some tips and tricks to make your code clean and readable, and who knows, maybe you could get a raise in the pay after implementing such tricks. </p><p><br></p><ol><li>Take your time to name variables descriptively.</li><li>Write comments whenever needed. And I know it is hard to know when to write one and when writing one is unnecessary. The rule of thumb is to write comments whenever you feel it is needed. An unnecessary comment is much better than a missing one.</li><li>Follow best practices inside your community.</li></ol>",
+    "updatedAt": "2022-12-24T12:39:13.244Z"
+  }
+]
