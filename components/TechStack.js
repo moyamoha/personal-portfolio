@@ -1,23 +1,38 @@
 import React from "react";
-import Skill from "./Skill";
+import { TbBrandJavascript } from "react-icons/tb";
+import { DiCss3Full } from "react-icons/di";
+import { SiNestjs } from "react-icons/si";
+import { GrHtml5 } from "react-icons/gr";
+import {
+  FaReact,
+  FaSass,
+  FaPython,
+  FaJava,
+  FaNodeJs,
+  FaVuejs,
+  FaAws,
+  FaGit,
+  FaLinux,
+} from "react-icons/fa";
 
 export default function TechStack() {
   const skills = [
-    { src: "/js-brands.svg", name: "Javascript" },
-    { src: "/html5-brands.svg", name: "Html5" },
-    { src: "/react-brands.svg", name: "React" },
-    { src: "/sass-brands.svg", name: "Sass" },
-    { src: "/css3-brands.svg", name: "Css3" },
-    { src: "/python-brands.svg", name: "Python" },
-    { src: "/java-brands.svg", name: "Java" },
-    { src: "/node-js-brands.svg", name: "NodeJs" },
-    { src: "/vuejs-brands.svg", name: "Vue" },
-    { src: "/nestjs-brands.svg", name: "Nestjs" },
+    { src: <TbBrandJavascript />, name: "Javascript" },
+    { src: <GrHtml5 />, name: "Html5" },
+    { src: <FaReact />, name: "React" },
+    { src: <FaSass />, name: "Sass" },
+    { src: <DiCss3Full />, name: "Css3" },
+    { src: <FaPython />, name: "Python" },
+    { src: <FaJava />, name: "Java" },
+    { src: <FaNodeJs />, name: "NodeJs" },
+    { src: <FaGit />, name: "Git" },
+    { src: <FaVuejs />, name: "Vue" },
+    { src: <SiNestjs />, name: "Nestjs" },
   ];
 
   const toBeLearnedSkills = [
-    { src: "/aws-brands.svg", name: "Aws" },
-    { src: "/linux-brands.svg", name: "Linux" },
+    { src: <FaAws />, name: "Aws" },
+    { src: <FaLinux />, name: "Linux" },
   ];
 
   return (
@@ -28,7 +43,10 @@ export default function TechStack() {
         style={{ gap: "15px" }}
       >
         {skills.map((s) => (
-          <Skill src={s.src} name={s.name}></Skill>
+          <span className="d-flex align-items-center" style={{ gap: "5px" }}>
+            {s.src}
+            <span>{s.name}</span>
+          </span>
         ))}
       </section>
       <br></br>
@@ -38,7 +56,10 @@ export default function TechStack() {
         style={{ gap: "15px" }}
       >
         {toBeLearnedSkills.map((s) => (
-          <Skill src={s.src} name={s.name}></Skill>
+          <span className="d-flex align-items-center" style={{ gap: "10px" }}>
+            {s.src}
+            <span>{s.name}</span>
+          </span>
         ))}
       </section>
     </>
