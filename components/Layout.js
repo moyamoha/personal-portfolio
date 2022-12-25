@@ -38,7 +38,7 @@ export default function Layout({ children }) {
         <li className="nav-item">
           <a
             className={
-              currentPath === "/blogs" ? "nav-link active" : "nav-link"
+              currentPath.includes("/blogs") ? "nav-link active" : "nav-link"
             }
             href="/blogs"
           >
