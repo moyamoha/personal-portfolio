@@ -2,29 +2,24 @@ import React from "react";
 
 import Layout from "@components/Layout";
 import BlogCard from "@components/BlogCard";
-import { loadBlogs } from "lib/loadBlogs";
+import { useDispatch, useSelector } from "react-redux";
+import { useAppDispatch } from "state/hooks";
+import { loadBlogs } from "state/data.api";
 
-export default function Blogs({ blogs }) {
-  React.useEffect(() => {});
+export default function Blogs() {
+  const dispatch = useAppDispatch();
+  const blogs = useSelector((s) => s.data.blogs);
+  React.useEffect(() => {
+    dispatch(loadBlogs());
+  }, []);
 
   return (
     <Layout>
       <div className="container-fluid d-md-flex flex-column px-sm-0 pt-2">
-        {blogs
-          .sort((a, b) => a.updatedAt <= b.updatedAt)
-          .map((b, i) => (
-            <BlogCard blog={b} key={b._id}></BlogCard>
-          ))}
+        {blogs.map((b, i) => (
+          <BlogCard blog={b} key={b._id}></BlogCard>
+        ))}
       </div>
     </Layout>
   );
-}
-
-export async function getStaticProps() {
-  const blogs = await loadBlogs();
-  return {
-    props: {
-      blogs,
-    },
-  };
 }

@@ -1,6 +1,9 @@
-import { useEffect } from "react";
+import { Provider } from "react-redux";
+
 import Head from "next/head";
 import Header from "@components/Header";
+import store from "state/store";
+
 import "@styles/globals.scss";
 import "@styles/header.scss";
 import "@styles/projects.scss";
@@ -47,7 +50,9 @@ function Application({ Component, pageProps }) {
       </Head>
       <Header></Header>
       <main className="container p-0 mt-4">
-        <Component {...pageProps} />
+        <Provider store={store}>
+          <Component {...pageProps} />
+        </Provider>
       </main>
     </>
   );

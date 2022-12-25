@@ -4,6 +4,7 @@ import React from "react";
 export default function Layout({ children }) {
   const router = useRouter();
   const currentPath = router.asPath;
+
   return (
     <>
       <ul className="nav nav-tabs mb-3 px-2 px-md-0">
