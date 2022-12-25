@@ -1,10 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 import {
   captitalizeTitle,
   getBlogDate,
   getShortContentForBlog,
-  slugifyTitle,
 } from "utils/string";
 
 export default function BlogCard({ blog }) {
@@ -17,10 +17,7 @@ export default function BlogCard({ blog }) {
       <h4 className="blog-card__title">{captitalizeTitle(blog.title)}</h4>
       <span className="blog-card__date">{getBlogDate(blog.updatedAt)}</span>
       <p>{shortContent}</p>
-      <a
-        className="blog-card__readmore"
-        href={`/blogs/${slugifyTitle(blog.title)}`}
-      >
+      <a className="blog-card__readmore" href={`/blogs/${blog._id}`}>
         Read more
       </a>
     </div>
