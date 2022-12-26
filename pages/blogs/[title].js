@@ -10,7 +10,7 @@ export default function Blog() {
   const r = useRouter();
   const { id } = r.query;
   const blogs = useSelector((s) => s.data.blogs);
-
+  console.log(id);
   const blog = blogs.find((b) => b._id === id);
 
   return (

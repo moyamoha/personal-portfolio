@@ -18,7 +18,7 @@ export const getBlogDate = (blogDate) => {
 };
 
 export const slugifyTitle = (blogTitle) => {
-  return blogTitle.toLowerCase().split(" ").join("-");
+  return encodeURIComponent(blogTitle.toLowerCase().split(" ").join("-"));
 };
 
 export const captitalizeTitle = (blogTitle) => {
