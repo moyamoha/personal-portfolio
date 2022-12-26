@@ -5,6 +5,7 @@ export function loadBlogs() {
     try {
       const res = await fetch("https://s4sqyr.deta.dev/blogs");
       const blogs = await res.json();
+      localStorage.setItem("blogs", JSON.stringify(blogs));
       dispatch(setBlogs(blogs));
     } catch (e) {}
   };
