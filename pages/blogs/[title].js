@@ -8,7 +8,7 @@ import { captitalizeTitle, getBlogDate } from "utils/string";
 
 export default function Blog() {
   const r = useRouter();
-  const { id, title } = r.query;
+  const { id } = r.query;
   const blogs = useSelector((s) => s.data.blogs);
 
   const blog = blogs.find((b) => b._id === id);
