@@ -19,7 +19,6 @@ export default function Blog() {
     const blogsString = localStorage.getItem("blogs");
     if (!blogsString) return;
     const blogs = JSON.parse(blogsString);
-    console.log("tuli tänne");
     dispatch(setBlogs(blogs));
   }, []);
 

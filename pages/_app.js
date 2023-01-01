@@ -12,6 +12,7 @@ import "@styles/work.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import "@styles/contact.scss";
 import "@styles/blogs.scss";
+import "@styles/loader.scss";
 
 function Application({ Component, pageProps }) {
   return (
