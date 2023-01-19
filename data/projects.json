@@ -40,10 +40,18 @@
     "demoLink": "https://countriesinfo.yahyasalimi.com/"
   },
   {
-    "title": "Url shortener",
-    "description": "A very basic mern application that makes your urls shorter",
-    "techStack": ["React", ", Express", ", MongoDB"],
-    "codebaseLink": "https://github.com/moyamoha/urlshortener"
+    "title": "Notebook application",
+    "description": "An application for taking notes",
+    "techStack": [
+      "React",
+      ", React quill (rich text editor)",
+      ", MongoDB",
+      ", ReduxToolkit",
+      ", nodejs",
+      ", Express"
+    ],
+    "starred": true,
+    "demoLink": "https://noteapp.yahyasalimi.com/"
   },
   {
     "title": "Library App",
