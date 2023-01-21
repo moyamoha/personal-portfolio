@@ -21,12 +21,6 @@
     "codebaseLink": "https://github.com/moyamoha/significant-earthquakes"
   },
   {
-    "title": "todo rest api",
-    "description": "When I first tried to learn django rest framework",
-    "techStack": ["Django", ", Django Rest Framework", ", JsonWebToken"],
-    "codebaseLink": "https://github.com/moyamoha/supreme-octo-happiness"
-  },
-  {
     "title": "countries listed",
     "description": "This application lists all countries of the world in a beautiful and user-friendly user interface.",
     "techStack": [
