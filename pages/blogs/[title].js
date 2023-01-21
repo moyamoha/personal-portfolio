@@ -5,11 +5,22 @@ import { useSelector } from "react-redux";
 import Layout from "@components/Layout";
 
 import { captitalizeTitle, getBlogDate } from "utils/string";
+import { useAppDispatch } from "state/hooks";
+import { setBlogs } from "state/data.slice";
 
 export default function Blog() {
   const r = useRouter();
-  const { id, title } = r.query;
+  const dispatch = useAppDispatch();
+
+  const { id } = r.query;
   const blogs = useSelector((s) => s.data.blogs);
+
+  React.useEffect(() => {
+    const blogsString = localStorage.getItem("blogs");
+    if (!blogsString) return;
+    const blogs = JSON.parse(blogsString);
+    dispatch(setBlogs(blogs));
+  }, []);
 
   const blog = blogs.find((b) => b._id === id);
 
