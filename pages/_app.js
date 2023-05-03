@@ -4,6 +4,9 @@ import Head from "next/head";
 import Header from "@components/Header";
 import store from "state/store";
 
+import { HIRE_ME } from "utils/constants";
+import Notif from "@components/Notif";
+
 import "@styles/globals.scss";
 import "@styles/header.scss";
 import "@styles/projects.scss";
@@ -13,6 +16,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "@styles/contact.scss";
 import "@styles/blogs.scss";
 import "@styles/loader.scss";
+import "@styles/notif.scss";
 
 function Application({ Component, pageProps }) {
   return (
@@ -49,6 +53,7 @@ function Application({ Component, pageProps }) {
           content="47OlB93kbpGW-DS075QAbuaIjEhltVUkkuoHOY-RJgU"
         />
       </Head>
+      <Notif msg={HIRE_ME}></Notif>
       <Header></Header>
       <main className="container p-0 mt-4">
         <Provider store={store}>
