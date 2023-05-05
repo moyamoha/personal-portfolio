@@ -43,7 +43,7 @@ export default function TechStack() {
         style={{ gap: "15px" }}
       >
         {skills.map((s) => (
-          <span className="d-flex align-items-center" style={{ gap: "5px" }}>
+          <span className="d-flex align-items-center" key={s.name} style={{ gap: "5px" }}>
             {s.src}
             <span>{s.name}</span>
           </span>
@@ -56,7 +56,7 @@ export default function TechStack() {
         style={{ gap: "15px" }}
       >
         {toBeLearnedSkills.map((s) => (
-          <span className="d-flex align-items-center" style={{ gap: "10px" }}>
+          <span key={s.name} className="d-flex align-items-center" style={{ gap: "10px" }}>
             {s.src}
             <span>{s.name}</span>
           </span>
