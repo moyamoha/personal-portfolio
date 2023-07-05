@@ -102,5 +102,11 @@
       ", pytube"
     ],
     "codebaseLink": "https://github.com/moyamoha/devcli"
+  },
+  {
+    "title": "Memory game",
+    "description": "I was bored so I made this simple game that may or maynot be good for your memory, but it doesn't harm",
+    "techStack": ["Html5", ", Css3", ", Vanilla Javascript"],
+    "demoLink": "https://play.yahyasalimi.com"
   }
 ]
