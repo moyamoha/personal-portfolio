@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from "react";
 import { useRouter } from "next/router";
+import { MSG_MIN_LENGHT } from "utils/constants";
 
 export default function ContactForm() {
   const [name, setName] = useState("");
@@ -7,6 +8,7 @@ export default function ContactForm() {
   const [message, setMessage] = useState("");
   const [nameError, setNameError] = useState("");
   const [emailError, setEmailError] = useState("");
+  const [msgError, setMsgError] = useState("");
   const router = useRouter();
 
   const handleSubmit = useCallback((e) => {
@@ -16,6 +18,11 @@ export default function ContactForm() {
       return;
     } else if (email === "") {
       setEmailError("Please provide your email");
+      return;
+    } else if (message.length < MSG_MIN_LENGHT) {
+      setMsgError(
+        `Your message should be at least ${MSG_MIN_LENGHT} characters`
+      );
       return;
     }
     const template_params = {
@@ -87,20 +94,28 @@ export default function ContactForm() {
         </p>
       </section>
       <section className="contact-form__section mb-3">
-        <label className="d-block mb-1">Your message</label>
+        <label className="d-block mb-1">Your message *</label>
         <textarea
           value={message}
           name="message"
           style={{ resize: "vertical", height: "200px" }}
           className="py-1 px-2"
-          onChange={(e) => setMessage(e.target.value)}
+          onChange={(e) => {
+            setMessage(e.target.value);
+            if (e.target.value.length >= MSG_MIN_LENGHT) setMsgError("");
+          }}
         ></textarea>
         <p
-          className="text-secondary lh-sm mt-1"
+          className={
+            msgError !== ""
+              ? "text-danger lh-sm mt-1"
+              : "text-secondary lh-sm mt-1"
+          }
           style={{ fontSize: "0.80rem" }}
         >
-          Ps: If you let message empty, I suppose that you want to contact me
-          personally in advance. I will thus get back to you via email
+          {msgError !== ""
+            ? msgError
+            : `Minimal length of ${MSG_MIN_LENGHT} characters`}
         </p>
       </section>
       <button type="submit" className="btn btn-outline-success mt-2">
