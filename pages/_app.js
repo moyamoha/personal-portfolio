@@ -2,10 +2,6 @@ import { Provider } from "react-redux";
 
 import Head from "next/head";
 import Header from "@components/Header";
-import store from "state/store";
-
-import { HIRE_ME } from "utils/constants";
-import Notif from "@components/Notif";
 
 import "@styles/globals.scss";
 import "@styles/header.scss";
@@ -53,12 +49,10 @@ function Application({ Component, pageProps }) {
           content="47OlB93kbpGW-DS075QAbuaIjEhltVUkkuoHOY-RJgU"
         />
       </Head>
-      <Notif msg={HIRE_ME}></Notif>
+      {/* <Notif msg={HIRE_ME}></Notif> */}
       <Header></Header>
       <main className="container p-0 mt-4">
-        <Provider store={store}>
-          <Component {...pageProps} />
-        </Provider>
+        <Component {...pageProps} />
       </main>
     </>
   );

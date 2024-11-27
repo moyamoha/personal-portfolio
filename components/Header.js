@@ -14,11 +14,6 @@ export default function Header() {
       </a>
 
       <ul className="navbar-nav w-100 justify-content-end">
-        {/* <li className="nav-item active">
-          <a className="nav-link" href="/40days">
-            40Days
-          </a>
-        </li> */}
         <li className="nav-item active">
           <a className="nav-link" href="/Resume_Yahya.pdf" target="_blank">
             Resume
